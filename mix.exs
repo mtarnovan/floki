@@ -43,6 +43,7 @@ defmodule Floki.Mixfile do
 
     [
       {:html_entities, "~> 0.5.0"},
+      {:jason, "~> 1.1"},
       {:earmark, "~> 1.2", only: :dev},
       {:ex_doc, "~> 0.22.1", only: :dev},
       {:credo, ">= 0.0.0", only: [:dev, :test]},
